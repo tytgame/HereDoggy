@@ -1,15 +1,15 @@
-# 🐾 여기보개 (HereDoggy)
+# 여기보개 (HereDoggy)
 
 > 유기동물 보호소와 시민을 연결하여 입양 전 교감 기회를 제공하는 **유기동물 체험 플랫폼**
 
 ---
 
-# 📆 프로젝트 진행 기간
-2025.05.09 ~ (진행중) (현 9주차)
+# 프로젝트 진행 기간
+2025.05.09 ~ 2025.07.21
 
 ---
 
-# 🧑‍💻 팀원 소개
+# 팀원 소개
 
 |   [이정은(팀장)](https://github.com/lejeongeun)   |                                                      [양제훈](https://github.com/Ssassin-01)                                                       |      [유예성](https://github.com/tytgame)       |     [조규훈](https://github.com/JoKyuHoon)      |
 |:--------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|
@@ -17,7 +17,7 @@
 |                   Backend                    |                                                                     Backend                                                                     |                 웹/앱 Frontend                 |                  웹 Frontend                  |
 
 
-## 🔍 팀원 역할
+## 팀원 역할
 
 - **이정은**
   - **설계**
@@ -73,7 +73,7 @@
     - **소셜로그인(구글/카카오) 구현**
       - Kakao_flutter_sdk
       - google_sign_in
-  - 앱(사용자)    
+  - 앱    
     - **실시간 알림 구현(FCM)**
       - firebase_messaging
       - flutter_local_notification
@@ -113,7 +113,7 @@
 ---
 
 
-## 📖 목차 
+## 목차 
 
 1. [프로젝트 기획 배경](#1-프로젝트-기획-배경)
 2. [프로젝트 목표](#2-프로젝트-목표)
@@ -128,7 +128,7 @@
 
 ---
 
-## 1. 📌 프로젝트 기획 배경
+## 1. 프로젝트 기획 배경
 
 > 유기동물 입양 전, 시민들이 직접 유기동물과 교감할 기회가 부족합니다.  
 > **여기보개**는 보호소와 시민을 연결하는 **참여형 체험 플랫폼**을 제안합니다.  
@@ -136,7 +136,7 @@
 
 ---
 
-## 2. 🎯 프로젝트 목표
+## 2. 프로젝트 목표
 
 - **입양 전 체험 기회를 제공하여 유기동물의 새로운 가족을 찾을 수 있도록 도와줍니다.**
 - **시민 참여 기반의 봉사 및 제보 활동을 통해 지역사회 문제 해결에 기여합니다.**
@@ -148,23 +148,23 @@
 
 ---
 
-## 3. 🚀 주요 기능 
+## 3. 주요 기능 
 
 
-### 👤 사용자
+### 사용자
 
-#### 🐾 산책/체험 및 입양
+#### 산책/체험 및 입양
 - 유기동물 산책/체험 예약
 - 산책 시 실시간 산책 경로 조회 가능
 - 입양 신청 및 설문 응답
 
-#### 📍 제보 및 커뮤니티
+#### 제보 및 커뮤니티
 - 위치 기반 유기견 제보 등록 및 알림 처리
 - 자유 게시판 / 산책·입양 후기 게시판 / 실종·목격 게시판을 통한 활성화
 - 댓글, 좋아요, 신고 기능
 
 
-#### 🙋‍♀️ 봉사 및 참여
+#### 봉사 및 참여
 
 - **산책 봉사자 등록 신청**  
   - 보호소에 봉사자로 등록 요청   
@@ -174,55 +174,55 @@
   - 산책 참여 후 굿즈 구매, 대여 키트 활용 가능
 
 
-#### 🔔 알림
+#### 알림
 - 실시간 푸시 알림 (FCM / SSE)
 - 알림 읽음 처리
 - 각 알림은 `referenceType`, `referenceId`를 기반으로 관련된 화면으로 이동 가능
 
-#### 🤖 AI 기능
+#### AI 기능
 - 자동품종 등록(진행중)
 - AI 기반 맞춤 추천 (MBTI/유사동물 추천) - 고도화 진행중
 - Gemini 기반 챗봇 Q&A (입양, 사후관리 등)  
 
 ---
 
-### 🏢 보호소 관리자
+### 보호소 관리자
 
-#### 🐶 보호 동물 관리
+#### 보호 동물 관리
 
 - 유기동물 관리
 
-#### 📆 예약 및 일정 관리
+#### 예약 및 일정 관리
 
 - 산책/체험/봉사 예약 승인 및 거절
 - 월별 예약 캘린더 관리
 
-#### 🗺 제보 및 커뮤니티
+#### 제보 및 커뮤니티
 
 - 지도 기반 제보 확인 및 상태 처리
 - 공지사항 및 보호소 커뮤니티 운영
 
-#### 💻 실시간 모니터링
+#### 실시간 모니터링
 
 - 실시간 산책 모니터링 제공
 
 ---
 
-### 🛠 시스템 관리자
+### 시스템 관리자
 
-#### 🏢 계정 및 보호소 권한 관리
+#### 계정 및 보호소 권한 관리
 
 - 보호소 등록 요청 승인/거절
 - 사용자 / 관리자 계정 및 권한 관리
 
-#### 🚨 시스템 모니터링
+#### 시스템 모니터링
 
 - 신고 및 문의 처리 (게시글, 댓글, 사용자 등)
 - 대시보드 통계 제공 (산책률 / 입양률 / 제보 처리 현황 등)
 
 ---
 
-## 4. 🖼️ 서비스 화면
+## 4. 서비스 화면
 ### 1. 메인 화면
 <img src="./etc/홈_마이페이지.gif"/>
 
@@ -235,52 +235,31 @@
 ### 4. 커뮤니티
 <img src="./etc/커뮤니티.gif"/>
 
-### 5. 제보하기
-> 진행중
-
-### 6. 문의하기
+### 5. 문의하기
 <img src="./etc/문의.gif"/>
 
-### 7. 신고하기
+### 6. 신고하기
 <img src="./etc/신고.gif"/>
 
-### 8. 봉사화면
-> 진행중
-
-### 9. 알림
+### 7. 알림
 <img src="./etc/알림.gif"/>
 <img src="./etc/알림사진.jpg" width="200" height="450"/>
 
-### 10. 굿즈
-> 진행중
-
-### 11. 챗봇
+### 8. 챗봇
 <img src="./etc/챗봇.gif"/>
 
-### 12. 보호소 관리자 페이지쪽
+### 9. 보호소 관리자 페이지
 <img src="./etc/보호소.gif"/>
-
-### 13. 관리자 페이지쪽
-> 진행중
 
 
 
 ---
 
-## 5. ⚙️ 개발 환경
+## 5. 개발 환경
 
 
 ### Frontend  
-<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
-<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-<img src="https://img.shields.io/badge/React Router-CA4245?style=for-the-badge&logo=React Router&logoColor=white">
-<img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
-<img src="https://img.shields.io/badge/recharts-FF6384?style=for-the-badge&logo=chart.js&logoColor=white">
-<img src="https://img.shields.io/badge/React Toastify-FF6384?style=for-the-badge&logo=React Toastify&logoColor=white">
-<img src="https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white">
-<img src="https://img.shields.io/badge/React Datepicker-FF6384?style=for-the-badge&logo=React Datepicker&logoColor=white"><br>  
-
-
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"> <img src="https://img.shields.io/badge/recharts-FF6384?style=for-the-badge&logo=chart.js&logoColor=white"> <img src="https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white">
 <img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white">
 <img src="https://img.shields.io/badge/dart-0175C2?style=for-the-badge&logo=dart&logoColor=white">
 <img src="https://img.shields.io/badge/firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white">
@@ -290,49 +269,29 @@
 
 ### Backend
 
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
-<img src="https://img.shields.io/badge/spring boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
-<img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white">
-<img src="https://img.shields.io/badge/spring data jpa-6DB33F?style=for-the-badge&logo=gradle&logoColor=white">
-<img src="https://img.shields.io/badge/lombok-%23DD0031?style=for-the-badge&logo=lombok&logoColor=white">
-<img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
-<img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens">
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/spring boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"> <img src="https://img.shields.io/badge/spring data jpa-6DB33F?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/lombok-%23DD0031?style=for-the-badge&logo=lombok&logoColor=white"> <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens">
 
 ### DataBase
 
-<img src="https://img.shields.io/badge/postgresSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white">
-<img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white">
+<img src="https://img.shields.io/badge/postgresSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white">
 
 ### Infra/DevOps  
-<img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=amazonsEc2&logoColor=white">
-<img src="https://img.shields.io/badge/Amazon%20S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white">
-<img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white">
+<img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=amazonsEc2&logoColor=white"> <img src="https://img.shields.io/badge/Amazon%20S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white"> <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white">
 
 
 ### 협업 문서화
-<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
-<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">  
-<img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white">
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
-<img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white">
-<img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white">
+<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"> <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white">
 
 
 ### API
-<img src="https://img.shields.io/badge/OAuth2-%23000000.svg?style=for-the-badge&logoColor=white">
-<img src="https://img.shields.io/badge/JavaMailSender-EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white">
-<img src="https://img.shields.io/badge/Firebase Cloud Messaging-DD2C00.svg?style=for-the-badge&logo=firebase&llogoColor=white">
-<img src="https://img.shields.io/badge/SSE-%23000000.svg?style=for-the-badge&logoColor=white">
-<img src="https://img.shields.io/badge/Google Map API-4285F4.svg?style=for-the-badge&logo=google&logoColor=white">
-<img src="https://img.shields.io/badge/Naver Map API-03C75A.svg?style=for-the-badge&logo=naver&logoColor=white">
-<img src="https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white">
+<img src="https://img.shields.io/badge/OAuth2-%23000000.svg?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/JavaMailSender-EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white"> <img src="https://img.shields.io/badge/Firebase Cloud Messaging-DD2C00.svg?style=for-the-badge&logo=firebase&llogoColor=white"> <img src="https://img.shields.io/badge/SSE-%23000000.svg?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/Google Map API-4285F4.svg?style=for-the-badge&logo=google&logoColor=white"> <img src="https://img.shields.io/badge/Naver Map API-03C75A.svg?style=for-the-badge&logo=naver&logoColor=white"> <img src="https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white">
 
 <details>
-<summary>📦 상세 기술스택 및 버전 보기</summary>
+<summary>상세 기술스택 및 버전 보기</summary>
 
 <br>
 
-### 🖥️ Frontend (Web)
+### Frontend (Web)
 
 | 기술스택       | 설명               | 버전 |
 |----------------|------------------|------|
@@ -345,7 +304,7 @@
 | Swiper         | 슬라이더 라이브러리       | 11.0.7 |
 | React Datepicker | 날짜 선택 라이브러리      | 8.4.0 |
 
-### 📱 Frontend (App)
+### Frontend (App)
 
 | 기술스택 | 설명                     | 버전   |
 |----------|--------------------------|--------|
@@ -356,7 +315,7 @@
 | Provider | 상태 관리 라이브러리       | 6.1.0 |
 | HTTP     | 기본 HTTP 라이브러리       | 1.1.0 |
 
-### 🔧 Backend
+### Backend
 
 | 기술스택        | 설명                          | 버전      |
 |-----------------|-------------------------------|---------|
@@ -368,14 +327,14 @@
 | Lombok          | Java 코드 어노테이션 자동화    | 1.18.38 |
 | Gradle          | 빌드 도구                     | 8.13    |
 
-### 🗄️ Database
+### Database
 
 | 기술스택   | 설명                      | 버전     |
 |------------|---------------------------|--------|
 | PostgreSQL | 관계형 데이터베이스        | 17.2   |
 | Redis      | 인메모리 데이터 저장소     | 3.0.504 |
 
-### ☁️ Infra / DevOps
+### Infra / DevOps
 
 | 기술스택 | 설명                          |
 |----------|-------------------------------|
@@ -383,7 +342,7 @@
 | AWS S3   | 이미지/정적 파일 저장소        | 
 | Nginx    | 리버스 프록시 및 정적 파일 서빙 | 
 
-### 🤝 협업 / 문서화
+### 협업 / 문서화
 
 | 도구      | 설명                    |
 |-----------|-------------------------|
@@ -394,7 +353,7 @@
 | Figma     | UI 설계 도구            |
 | Discord   | 실시간 커뮤니케이션     |
 
-### 🔐 API / 인증
+### API / 인증
 
 | 기술스택            | 설명                                |
 |---------------------|-------------------------------------|
@@ -412,52 +371,53 @@
 
 ---
 
-## 6. 📝 피그마 (와이어프레임)
+## 6. 피그마 (와이어프레임)
 
 [🔗 Figma Link](https://www.figma.com/design/WFEyxs4K7yCmOrOnrZS5pQ/%EC%97%AC%EA%B8%B0%EB%B3%B4%EA%B0%9C?node-id=0-1&p=f&t=Ghqz4yIUcM6AZOi2-0)
 
-### 📄 사용자 와이어프레임:
+### 사용자 와이어프레임:
 
 <img src="./docs/유저_figma1.png" width="900"/> <br>
 <img src="./docs/유저_figma.png" width="900"/>
 
 
-### 📄 보호소관리자 와이어프레임:
+### 보호소관리자 와이어프레임:
 
 <img src="./docs/관리자_figma.png" width="900"/>
 <img src="./docs/관리자_figma.png" width="900"/>
 
 ---
 
-## 7. 📋 요구사항 정의서
+## 7. 요구사항 정의서
 [🔗 notion Link](https://www.notion.so/1f42b8afefe58091b5bde5b00ed2de36?v=1f42b8afefe5819cb4a7000c70e72709&source=copy_link)
+
 <img src="./docs/요구사항.png" width="900"/>
 
 ---
 
-## 8. 📡 API 명세서
+## 8. API 명세서
 
 
-### 📄 사용자 API
+### 사용자 API
 [🔗 notion Link](https://www.notion.so/API-1f12b8afefe5813a9e65f705f7dff230?source=copy_link)
 
 <img src="./docs/사용자_API.png" width="800"/>
 
 
-### 📄 관리자 API
+### 관리자 API
 [🔗 notion Link](https://www.notion.so/API-1f12b8afefe5813a9e65f705f7dff230?source=copy_link)
 
 <img src="./docs/관리자_API.png" width="800"/>
 
 ---
 
-## 9. 🧬 ERD
+## 9. ERD
 <img src="./docs/erd.png" width="800"/>
 
 
 ---
 
-## 10. 🏗️ 아키텍처
+## 10. 아키텍처
 
 <img src="./docs/아키텍처.png" width="800"/>
 
